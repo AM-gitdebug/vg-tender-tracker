@@ -25,7 +25,7 @@ header
 }
 .upcoming{
 	background:#ffc107;
-	color:black:
+	color:black;
 }
 .closed {
 	background:#dc3545;
@@ -41,7 +41,6 @@ th{
 	padding:12px;
 }
 td{
-}
 	padding: 10px;
 	border-bottom: 1px solid #ddd;
 }
