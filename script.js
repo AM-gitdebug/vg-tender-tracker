@@ -6,6 +6,7 @@ fetch("tenders.csv")
 	let live = 0;
 	let upcoming = 0;
 	let closed = 0;
+	let awarded = 0;
 	rows.slice(1).forEach(row => {
 		let cols = row.split(",").map(col => col.trim());
 		let status = cols[6];
@@ -24,6 +25,7 @@ fetch("tenders.csv")
 		}
 		else{
 			cssClass="status-awarded";
+			awarded++;
 		}
 		let tr= document.createElement("tr");
 		tr.innerHTML= `
@@ -41,4 +43,5 @@ fetch("tenders.csv")
 	document.getElementById("liveCount").innerText = live;
 	document.getElementById("upcomingCount").innerText = upcoming; 
 	document.getElementById("closedCount").innerText = closed;
+	document.getElementById("awardedCount").innerText = awarded;
 	});
