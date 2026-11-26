@@ -1,8 +1,9 @@
-State,Authority,Sites,Chargers,TenderModel,BidDueDate,Status,AnalysisLink
-Delhi,DTL,180,540,QCBS,11-Dec-2026,Live,documents/delhi-analysis.pdf
-Kerala,KSEBL,209,335,RevenueShare,18-Jul-2026,Closed,documents/kerala-analysis.pdf
-UttarPradesh,UPREV,238,714,LowestServiceCharge,31-Jul-2026,Awarded,documents/uttarpradesh-analysis.pdf
-Gujarat,VMC,28,56,RevenueShare,09-Oct-2026,Awarded,documents/gujarat-analysis.pdf
-Telangana,TGREDCO,116,169,FixedMonthlyPayment,TBD,Upcoming,documents/telangana-analysis.pdf
-Odisha,STAOdisha,170,692,QCBS,TBD,Upcoming,documents/orissa-analysis.pdf
-Rajasthan,RRECL,236,696,RevenueShare,06-Oct-2026,Closed,documents/rajasthan-analysis.pdf
+State,TenderAuthority,Sites,Chargers,TenderType,BidDueDate,Status,SupportingDocuments
+Delhi,DTL,180,540,RFP,11-Dec-26,Live,documents/delhi-analysis.pdf
+Kerala,KSEBL,209,335,RFP,18-Jul-26,Awarded,documents/kerala-analysis.pdf
+UttarPradesh,UPREV,238,714,RFP,31-Jul-26,Awarded,documents/uttarpradesh-analysis.pdf
+Gujarat,VMC,28,56,RFP,09-Oct-26,Under Evaluation,documents/gujarat-analysis.pdf
+Telangana,TGREDCO,116,169,RFP,TBD,Upcoming,documents/telangana-analysis.pdf
+Odisha,STA Odisha,170,692,RFP,TBD,Upcoming,documents/orissa-analysis.pdf
+Rajasthan,RRECL,236,696,RFP,06-Oct-26,Under Evaluation,documents/rajasthan-analysis.pdf
+Rajasthan,RRECL,-,-,EOI,07-Dec-26,Live,documents/rajasthan-analysis.pdf
