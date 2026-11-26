@@ -1,0 +1,51 @@
+<IDOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>V-Green EV Charger Tender Tracker</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<header>
+		<h1>EV Charging Tender Tracker</h1>
+		<p>PM E-DRIVE Opportunities</p>
+	</header>
+
+	<div class="cards">
+		<div class="card live">
+			<h2 id="liveCount">0</h2>
+			<p>Live</p>
+		</div>
+		<div class="card upcoming">
+		<h2 id="upcomingCount">0</h2>
+			<p>Upcoming</p>
+		</div>
+		<div class="card closed">
+			<h2 id="closedCount">0</h2>
+			<p>Closed</p>
+		</div>
+	</div>
+
+<input type="text" id="searchBox" placeholder="Search state or authority">
+
+<table id="tender Table">
+	<thead>
+		<tr>
+			<th>State</th>
+			<th>Authority</tb>
+			<th>Sites</b>
+			<th>Chargers</th>
+			<th>Tender Model</th>
+			<th>Bid Due Date</th>
+			<th>Status</th>
+			<th>Analysis</th>
+		</tr>
+	</thead>
+<tbody></tbody>
+</table>
+<script src="script.js"></script>
+</body>
+</html>
